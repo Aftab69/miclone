@@ -5,7 +5,7 @@ const Slider = () => {
   return (
     <>
           <Carousel fade>
-            <Carousel.Item>
+            <Carousel.Item interval={2000}>
               <img 
                 className='d-block w-100'
                 src="https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
@@ -16,7 +16,7 @@ const Slider = () => {
                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={2000}>
               <img
                 className='d-block w-100'
                 src="https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-white-40739.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
@@ -27,7 +27,7 @@ const Slider = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={2000}>
               <img
                 className='d-block w-100'
                 src="https://images.pexels.com/photos/3973973/pexels-photo-3973973.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
