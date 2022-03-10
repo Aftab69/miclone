@@ -36,7 +36,7 @@
 
 /* navbar */
 
-.nav{
+.navBar{
     height: 6vw;
     display: flex;
     justify-content: center;
@@ -66,10 +66,10 @@
     justify-content: space-between;
     color: rgb(68, 68, 68);
 }
-.navContents > h3{
+.navContents > h5{
     display: flex;
 }
-.navContents > h3:hover{
+.navContents > h5:hover{
     color: orangered;
     cursor: pointer;
 }
@@ -93,3 +93,5 @@
     width: 1.5vw;
     cursor: pointer;
 }
+
+/* Carousel */
